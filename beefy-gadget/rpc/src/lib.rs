@@ -21,11 +21,10 @@
 use beefy_gadget::notification::BeefySignedCommitmentStream;
 use futures::{FutureExt, SinkExt, StreamExt};
 use jsonrpc_derive::rpc;
-use jsonrpc_pubsub::{manager::SubscriptionManager, typed::Subscriber, SubscriptionId};
+use jsonrpc_pubsub::{manager::SubscriptionManager, typed::Subscriber, SubscriptionId, PubSubMetadata};
 use log::warn;
 use sp_runtime::traits::Block as BlockT;
 use std::sync::Arc;
-
 mod notification;
 
 /// Provides RPC methods for interacting with BEEFY.
