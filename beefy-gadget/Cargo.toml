@@ -10,7 +10,7 @@ fnv = "1.0.6"
 futures = "0.3"
 hex = "0.4"
 log = "0.4"
-parking_lot = "0.11"
+parking_lot = "0.12"
 thiserror = "1.0"
 wasm-timer = "0.2.5"
 
